@@ -1,0 +1,21 @@
+.whatsapp_container {
+    /* Background color */
+    background-color: #26c749;
+    
+    /* Positioning */
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    
+    /* Spacing and padding */
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    
+    /* Rounded corners for a circular shape */
+    border-radius: 50%;
+}
+
+.whatsapp_container:hover {
+    cursor: pointer;
+}

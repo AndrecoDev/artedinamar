@@ -1,0 +1,37 @@
+.registration__form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .form__group {
+    margin-bottom: 20px;
+  }
+  
+  .form__group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form__group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form__group button {
+    background-color: #353535;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form__group button:hover {
+    background-color: #161616;
+  }
+  

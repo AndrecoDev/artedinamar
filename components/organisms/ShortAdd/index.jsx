@@ -16,17 +16,12 @@ const ShortAdd = () => {
   return (
     <div className={Styles.container}>
       <div className={Styles.contact} onClick={handleWhatsAppClick}>
-        <FaWhatsapp size={20} />{" "}
-        <span>+57 {process.env.NEXT_PUBLIC_WHATSAPP_BUSINESS_NUMBER}</span>
-        <BsFillTelephoneFill size={20} />{" "}
+        <BsFillTelephoneFill size={20} /> <FaWhatsapp size={20} />{" "}
         <span>+57 {process.env.NEXT_PUBLIC_WHATSAPP_BUSINESS_NUMBER}</span>
       </div>
 
       <div className={Styles.delivery}>
-        <span>
-          Entrega en 1 - 3 días. Servicio contraentrega - Despachos a nivel
-          nacional{" "}
-        </span>
+        <span>Servicio contraentrega. Despachos a nivel nacional</span>
         <TbTruckDelivery size={22} />
       </div>
     </div>

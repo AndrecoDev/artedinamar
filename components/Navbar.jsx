@@ -69,8 +69,8 @@ const Navbar = ({ Searchproducts }) => {
               <Image
                 className="logo-small"
                 src={logo}
-                width={140}
-                height={25}
+                width={80}
+                height={80}
                 alt="logo"
               />
             </Link>
@@ -84,6 +84,7 @@ const Navbar = ({ Searchproducts }) => {
               <Link href="/cart">
                 <button
                   className="cart-small-screen"
+                  onClick={() => setToggleMenu(false)}
                   // onClick={() => setShowCart(false)}
                 >
                   <CgShoppingCart size={22} />

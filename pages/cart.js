@@ -171,11 +171,18 @@ const Cart = () => {
               />
             </div>
             {emailError && <span style={{ color: "red" }}>{emailError}</span>}
-            <div className={Styles.form__group}>
-              <button className="btn" type="button" onClick={handleSubmitMail}>
-                Continuar compra
-              </button>
-            </div>
+
+            {!isMailSend ? (
+              <div className={Styles.form__group}>
+                <button
+                  className="btn"
+                  type="button"
+                  onClick={handleSubmitMail}
+                >
+                  Continuar compra
+                </button>
+              </div>
+            ) : null}
 
             {/* <div className={Styles.registration__fsorm}> */}
             {isMailSend && (

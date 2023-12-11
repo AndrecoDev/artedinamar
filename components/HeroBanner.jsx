@@ -14,13 +14,13 @@ const HeroBanner = () => {
       <div className="header-left-side">
         <div className="header-content">
           <span>Promociones hasta del 40%</span>
-          <h1>En nuestra tienda, fusionamos moda y creatividad.</h1>
-          <p>
+          <h1>En nuestra tienda, encontrarás bolsos, joyas y manualidades</h1>
+          <h4 style={{ fontWeight: 400 }}>
             Explora la elegancia en cada detalle: desde nuestros exclusivos
             bolsos tote hasta joyas que cuentan historias y manualidades que
             transforman momentos en recuerdos inolvidables.
-          </p>
-          <Link href="/products">
+          </h4>
+          <Link href="/productos">
             <button className="btn" type="button">
               <CgShoppingCart size={26} /> Comprar
             </button>

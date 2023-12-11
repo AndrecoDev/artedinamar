@@ -18,16 +18,16 @@ const Navbar = ({ Searchproducts }) => {
         <Image src={logo} width={100} height={90} alt="logo" />
       </Link>
       <ul className="nav-links">
-        <Link href="/bags">
+        <Link href="/bolsos">
           <li>Bolsos</li>
         </Link>
-        <Link href="/male">
+        <Link href="/joyas">
           <li>Joyas</li>
         </Link>
-        <Link href="/kids">
+        <Link href="/manualidades">
           <li>Manualidades</li>
         </Link>
-        <Link href="/products">
+        <Link href="/productos">
           <li>Todos los productos</li>
         </Link>
       </ul>
@@ -91,16 +91,16 @@ const Navbar = ({ Searchproducts }) => {
                   <span className="cart-item-qty">{totalQty}</span>
                 </button>
               </Link>
-              <Link href="/bags" onClick={() => setToggleMenu(false)}>
+              <Link href="/bolsos" onClick={() => setToggleMenu(false)}>
                 <li>Bolsos</li>
               </Link>
-              <Link href="/male" onClick={() => setToggleMenu(false)}>
+              <Link href="/joyas" onClick={() => setToggleMenu(false)}>
                 <li>Joyas</li>
               </Link>
-              <Link href="/kids" onClick={() => setToggleMenu(false)}>
+              <Link href="/manualidades" onClick={() => setToggleMenu(false)}>
                 <li>Manualidades</li>
               </Link>
-              <Link href="/products" onClick={() => setToggleMenu(false)}>
+              <Link href="/productos" onClick={() => setToggleMenu(false)}>
                 <li>Todos los productos</li>
               </Link>
             </ul>

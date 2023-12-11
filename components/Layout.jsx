@@ -8,9 +8,6 @@ import WhatsAppButton from "./organisms/WhatsAppButton/WhatsAppButton";
 const Layout = ({ children }) => {
   return (
     <div className="layout">
-      <Head>
-        <title>Arte Dinamar</title>
-      </Head>
       <header>
         <ShortAdd />
         <Navbar />
